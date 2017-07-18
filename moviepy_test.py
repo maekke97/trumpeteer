@@ -61,6 +61,7 @@ def generate_mp4(sync_map='word_times.json', out_file='myvideo.mp4', temp_audio=
 if __name__ == '__main__':
     my_text = "The ABC/Washington Post Poll, even though almost 40% is not bad at this time, was just about the most " \
            "inaccurate poll around election time! "
+    my_text = "With all of its phony unnamed sources & highly slanted & even fraudulent reporting, #Fake News is DISTORTING DEMOCRACY in our country!"
     generate_mp3(my_text)
     analyze_audio(my_text)
     generate_mp4()
